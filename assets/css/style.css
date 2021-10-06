@@ -1,0 +1,124 @@
+/* navbar */
+.navbar {
+    border-top: 10px solid #ffff00;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-nav {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover {
+    color: #F28E65 !important;
+}
+
+.center {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 150px;
+    width: 800px;
+    padding: 40px;
+}
+
+/* judul */
+.judul {
+    background-color: #ffff00;
+}
+
+
+/* services */
+.services .card-img-top {
+    border-radius: 20px;
+}
+
+.services .card-body {
+    margin-left: -15px;
+}
+
+.card-body .card-text {
+    color: #F28E65;
+    letter-spacing: 1px;
+}
+
+.card-text span {
+    font-weight: 500;
+}
+
+
+/* solution */
+/* .solution .carousel-item {
+    height: 100%;
+    max-height: 500px;
+} */
+
+.solution .carousel-caption {
+    top: 50%;
+}
+
+.solution .carousel-caption img {
+    max-height: 60px;
+}
+
+
+/* feature */
+.feature {
+    background-color: rgba(255, 255, 68, 0.267);
+}
+
+.containerfeature {
+    max-width: 1700px;
+}
+
+.feature .parallax {
+    background-image: url("../images/carousel/cropp/andrey-sharpilo-_PcWGCSoqRg-unsplash.jpg");
+    /* Set a specific height */
+    height: 100%;
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature i {
+    font-size: 4rem;
+    color: #BD9254;
+}
+
+
+/* About */
+.about {
+    background-color: #333;
+}
+
+.about .container img {
+    width: 100px;
+}
+
+.about .col-lg-4 {
+    position: relative;
+    top: 20px;
+}
+
+.about ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+.about ul li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* footer */
+footer {
+    background-color: #292929;
+    height: 100px;
+}
+
+footer p {
+    font-size: 14px;
+}
